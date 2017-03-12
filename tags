@@ -1,0 +1,60 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AKEY_LEN	duo_web/__init__.py	/^AKEY_LEN = 40$/;"	kind:variable	line:25
+APP_EXPIRE	duo_web/__init__.py	/^APP_EXPIRE = 3600$/;"	kind:variable	line:21
+APP_PREFIX	duo_web/__init__.py	/^APP_PREFIX = 'APP'$/;"	kind:variable	line:14
+AUTH_PREFIX	duo_web/__init__.py	/^AUTH_PREFIX = 'AUTH'$/;"	kind:variable	line:15
+ConfigParser	server.py	/^    import six.moves.configparser as ConfigParser$/;"	kind:namespace	line:156
+DUO_EXPIRE	duo_web/__init__.py	/^DUO_EXPIRE = 0$/;"	kind:variable	line:20
+DUO_PREFIX	duo_web/__init__.py	/^DUO_PREFIX = 'TX'$/;"	kind:variable	line:13
+ENROLL_PREFIX	duo_web/__init__.py	/^ENROLL_PREFIX = 'ENROLL'$/;"	kind:variable	line:16
+ENROLL_REQUEST_PREFIX	duo_web/__init__.py	/^ENROLL_REQUEST_PREFIX = 'ENROLL_REQUEST'$/;"	kind:variable	line:17
+ERR_AKEY	duo_web/__init__.py	/^ERR_AKEY = 'ERR|The application secret key passed to sign_request() must be at least %s characters.' % AKEY_LEN$/;"	kind:variable	line:30
+ERR_IKEY	duo_web/__init__.py	/^ERR_IKEY = 'ERR|The Duo integration key passed to sign_request() is invalid.'$/;"	kind:variable	line:28
+ERR_SKEY	duo_web/__init__.py	/^ERR_SKEY = 'ERR|The Duo secret key passed to sign_request() is invalid.'$/;"	kind:variable	line:29
+ERR_UNKNOWN	duo_web/__init__.py	/^ERR_UNKNOWN = 'ERR|An unknown error has occurred.'$/;"	kind:variable	line:32
+ERR_USER	duo_web/__init__.py	/^ERR_USER = 'ERR|The username passed to sign_request() is invalid.'$/;"	kind:variable	line:27
+ERR_USER_ENCODING	duo_web/__init__.py	/^ERR_USER_ENCODING = 'ERR|The username passed to sign_request() could not be encoded. Pass a <unicode> username in Python 2 or <str> username in Python 3.'$/;"	kind:variable	line:31
+HTTPServer	server.py	/^from six.moves.BaseHTTPServer import HTTPServer$/;"	kind:namespace	line:1
+IKEY_LEN	duo_web/__init__.py	/^IKEY_LEN = 20$/;"	kind:variable	line:23
+RequestHandler	server.py	/^class RequestHandler(SimpleHTTPRequestHandler):$/;"	kind:class	line:11
+SKEY_LEN	duo_web/__init__.py	/^SKEY_LEN = 40$/;"	kind:variable	line:24
+SimpleHTTPRequestHandler	server.py	/^from six.moves.SimpleHTTPServer import SimpleHTTPRequestHandler$/;"	kind:namespace	line:2
+__init__.py	duo_web/__init__.py	1;"	kind:file	line:1
+_hmac_sha1	duo_web/__init__.py	/^def _hmac_sha1(key, msg):$/;"	kind:function	line:35
+_parse_vals	duo_web/__init__.py	/^def _parse_vals(key, val, prefix, ikey):$/;"	kind:function	line:51
+_sign_request	duo_web/__init__.py	/^def _sign_request(ikey, skey, akey, username, prefix):$/;"	kind:function	line:82
+_sign_vals	duo_web/__init__.py	/^def _sign_vals(key, vals, prefix, expire):$/;"	kind:function	line:40
+_verify_response	duo_web/__init__.py	/^def _verify_response(ikey, skey, akey, prefix, sig_response):$/;"	kind:function	line:153
+base64	duo_web/__init__.py	/^import base64$/;"	kind:namespace	line:8
+cgi	server.py	/^import cgi$/;"	kind:namespace	line:4
+config	server.py	/^    config = ConfigParser.ConfigParser()$/;"	kind:variable	line:162
+directory	server.py	/^    directory = os.path.join("demos", "simple")$/;"	kind:variable	line:159
+do_GET	server.py	/^    def do_GET(self):$/;"	kind:member	line:60
+do_POST	server.py	/^    def do_POST(self):$/;"	kind:member	line:117
+duo_web	server.py	/^import duo_web$/;"	kind:namespace	line:8
+error	server.py	/^    def error(self, msg):$/;"	kind:member	line:13
+filename	server.py	/^    filename = "duo.conf"$/;"	kind:variable	line:158
+hashlib	duo_web/__init__.py	/^import hashlib$/;"	kind:namespace	line:9
+hmac	duo_web/__init__.py	/^import hmac$/;"	kind:namespace	line:10
+main	server.py	/^def main(ikey, skey, akey, host, port=8080):$/;"	kind:function	line:145
+moves	server.py	/^    import six.moves.configparser as ConfigParser$/;"	kind:namespace	line:156
+os	server.py	/^import os$/;"	kind:namespace	line:5
+parse_qs	server.py	/^from six.moves.urllib.parse import urlparse, parse_qs$/;"	kind:namespace	line:3
+path	server.py	/^    path = os.path.join(directory, filename)$/;"	kind:variable	line:160
+require_post	server.py	/^    def require_post(self, name):$/;"	kind:member	line:45
+require_query	server.py	/^    def require_query(self, name):$/;"	kind:member	line:34
+serve_file	server.py	/^    def serve_file(self):$/;"	kind:member	line:21
+server.py	server.py	1;"	kind:file	line:1
+sign_enroll_request	duo_web/__init__.py	/^def sign_enroll_request(ikey, skey, akey, username):$/;"	kind:function	line:138
+sign_request	duo_web/__init__.py	/^def sign_request(ikey, skey, akey, username):$/;"	kind:function	line:123
+six	server.py	/^    import six.moves.configparser as ConfigParser$/;"	kind:namespace	line:156
+sys	server.py	/^import sys$/;"	kind:namespace	line:6
+time	duo_web/__init__.py	/^import time$/;"	kind:namespace	line:11
+urlparse	server.py	/^from six.moves.urllib.parse import urlparse, parse_qs$/;"	kind:namespace	line:3
+verify_enroll_response	duo_web/__init__.py	/^def verify_enroll_response(ikey, skey, akey, sig_response):$/;"	kind:function	line:193
+verify_response	duo_web/__init__.py	/^def verify_response(ikey, skey, akey, sig_response):$/;"	kind:function	line:179
